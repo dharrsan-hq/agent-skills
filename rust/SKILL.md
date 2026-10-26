@@ -12,9 +12,3 @@ Draft skeleton. Populate from the Rust book(s) before use.
 - `SKILL.md` — the core rules: ownership/borrowing habits, error handling
   (`thiserror` for libraries, `anyhow` for binaries), trait & generics guidance,
   async patterns, and code review checklists.
-- `references/` — one file per topic, e.g.:
-  - `references/ownership-and-borrowing.md`
-  - `references/error-handling.md`
-  - `references/traits-and-generics.md`
-  - `references/async.md`
-  - `references/tooling.md` (clippy, rustfmt, cargo workspaces)

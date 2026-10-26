@@ -4,31 +4,26 @@ Personal collection of [SKILL.md](https://opencode.ai/v2/docs/skills/) agent ski
 portable across OpenCode, Claude Code, Codex, and other tools that read the
 `SKILL.md` standard.
 
-Skills are distilled from technical books and real-world experience, organized
-as progressive disclosure: `SKILL.md` holds the condensed rules and workflows,
-`references/` holds the deeper material loaded on demand.
+Skills are distilled from technical books and real-world experience. Each
+skill is a single `SKILL.md` holding the condensed rules, workflows, and
+checklists.
 
 ## Layout
 
 ```
 agent-skills/
 ├── rust/
-│   ├── SKILL.md            # idioms, pitfalls, decision rules
-│   └── references/         # book chapters distilled by topic
+│   └── SKILL.md            # idioms, pitfalls, decision rules
 ├── sre-architecture/
-│   ├── SKILL.md
-│   └── references/
+│   └── SKILL.md
 └── system-design/
-    ├── SKILL.md
-    └── references/
+    └── SKILL.md
 ```
 
 Each skill directory is one skill:
 
 - `SKILL.md` — frontmatter (`name`, `description`) + the skill body, loaded when
   the agent invokes it. Keep under ~500 lines.
-- `references/` — supporting files, read only when the task needs them.
-- `scripts/` — optional, for helper scripts the skill can run.
 
 ## Using with OpenCode
 
