@@ -39,8 +39,8 @@ Global, all projects — add to `~/.config/opencode/opencode.jsonc`:
 Single project — add to that project's `opencode.jsonc` instead, or commit
 skills under `.opencode/skills/`.
 
-## Roadmap
+## Contents
 
-- [ ] `rust` — from the Rust book(s)
-- [ ] `sre-architecture` — from SRE / distributed systems books
-- [ ] `system-design` — from system design books
+- [x] `rust` — idiomatic Rust from *The Rust Programming Language* (official book)
+- [x] `sre-architecture` — from *Site Reliability Engineering: How Google Runs Production Systems*
+- [x] `system-design` — from *Designing Data-Intensive Applications* (2nd ed.)
