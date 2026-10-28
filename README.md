@@ -16,7 +16,9 @@ agent-skills/
 │   └── SKILL.md            # idioms, pitfalls, decision rules
 ├── sre-architecture/
 │   └── SKILL.md
-└── system-design/
+├── system-design/
+│   └── SKILL.md
+└── proactive-advisor/
     └── SKILL.md
 ```
 
@@ -44,3 +46,4 @@ skills under `.opencode/skills/`.
 - [x] `rust` — idiomatic Rust from *The Rust Programming Language* (official book)
 - [x] `sre-architecture` — from *Site Reliability Engineering: How Google Runs Production Systems*
 - [x] `system-design` — from *Designing Data-Intensive Applications* (2nd ed.)
+- [x] `proactive-advisor` — volunteer unasked strategic ideas, risks, and trade-offs on planning, product, and career work
